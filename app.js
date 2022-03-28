@@ -31,7 +31,7 @@ module.exports = app;
 const express = require('express');
 const Routes = require('./routes/stuff');
 const app = express();
-const port = 4000;
+const port = process.env.PORT;
 
 
 
