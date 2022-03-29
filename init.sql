@@ -149,7 +149,7 @@ ALTER TABLE public.university OWNER TO postgres;
 --
 
 COPY public.avis (id_avis, text_avis, date_avis, fk_student, fk_company, note_avis, title_avis) FROM stdin;
-7	David finit au bout d'une heure par s'assoupir. Il fut réveillé par le bruit d’une portière se fermant. Le chauffeur venait de sortir et discutait avec un militaire. David reconnu l’entrée du 57e RA qui n’avait pas changé depuis son départ. « Nous sommes arrivés Monsieur Arnould. » Dis l'un des gardes du corps de David.	2022-03-18	2	5	5	titre pour le 6loolll
+7	David finit au bout d'une heure par s'assoupir. Il fut réveillé par le bruit d’une portière se fermant. Le chauffeur venait de sortir et discutait avec un militaire. David reconnu l’entrée du 57e RA qui n’avait pas changé depuis son départ. « Nous sommes arrivés Monsieur Arnould. » Dis l'un des gardes du corps de David.	2022-03-18	2	5	5	titre n°6
 3	Huic Arabia est conserta, ex alio latere Nabataeis contigua; opima varietate conmerciorum castrisque oppleta validis et castellis, quae ad repellendos gentium vicinarum excursus sollicitudo pervigil veterum per oportunos saltus erexit et cautos. haec quoque civitates habet inter oppida quaedam ingentes Bostram et Gerasam atque Philadelphiam murorum firmitate cautissimas. hanc provinciae inposito nomine rectoreque adtributo obtemperare legibus nostris Traianus conpulit imperator incolarum tumore saepe contunso cum glorioso marte Mediam urgeret et Parthos.	2022-03-14	1	2	6	Titre pour l'avis 3
 4	C’est une informaticienne chevronnée de 35 ans. Une surdouée qui s’est découvert une passion pour l’informatique à l’âge de treize ans lorsqu’elle a vu une publicité pour cet ordinateur familial dont on ventait les mérites à l’aide d’une petite marionnette virtuelle. Elle voulait un ami, elle a eu une marionnette virtuelle. Depuis, la marionnette a laissé place à des projets plus sérieux, plus lucratifs surtout. Mais Sophie, c’est comme ça qu’elle nommait sa marionnette, est toujours là, dans un petit coin de son ordinateur et c’est à Sophie qu’elle s’adresse quand le moral est au plus bas. Mais aujourd’hui, c’est Sophie qui s’adresse à Florence.\n\nComme je viens de te le dire Florence, ce n’est malheureusement pas une blague. David a travaillé sur deux anciennes technologies abandonnées depuis longtemps et il les a couplées. Séparées, elles ne valaient rien, mais, il les a réunies et a démarré le processus. Comme tu dois le savoir, il y a maintenant plus d’ordinateurs sur terre que d’humains et tous ces ordinateurs sont connectés entres eux grâce au réseau des réseaux : Internet.	2022-03-21	1	1	3	Titre pour l'avis 4
 5	Florence est une jeune femme, grande et filiforme. Ses longs cheveux blonds ressemblent aux vagues que forment les blés dans les champs sous l’effet du vent. Et l’on pourrait croire que ses yeux sont des émeraudes trouvés sous les deux petites collines qui masquent une mine d’or : son cœur.\n\nDe tout temps, l'homme a tenté de comprendre puis de reproduire l'extraordinaire machine qu'est l'être humain. Les premiers automates nous font sourire aujourd'hui. Les premiers ordinateurs également, mais un peu moins. Et lorsqu'un certain McCullogn, aidé de Pitts, invente en 1943 le premier neurone formel, on ne rigole plus. L'ordinateur est devenu capable de reproduire des neurones artificiels. Le "complexe de Frankenstein" va alors freiner les recherches. On commence à entendre parler du concept d'Intelligence Artificielle, plus connu sous les termes d'IA. Cela fait peur.	2022-03-15	2	2	7	titre 5ème avis modifié
@@ -168,13 +168,8 @@ COPY public.company (id_company, name_company) FROM stdin;
 3	Tesla
 4	Samasung
 5	Levis
-6	le6
-7	le7
-8	le8
-9	le9
-10	10èm company
-11	acer
-12	logitech
+6	acer
+7	logitech
 \.
 
 
